@@ -3,7 +3,7 @@
 set -e
 
 if [[ ! -d fatty ]]; then
-    git clone https://github.com/paolo-sz/fatty.git
+    git clone --depth 1 https://github.com/paolo-sz/fatty.git
 fi
 
 cd fatty
